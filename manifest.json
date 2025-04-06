@@ -1,0 +1,32 @@
+{
+  "description": "A tranquil night-sky theme with dreamy stars, soft celestial tones, and a calm deep blue background.",
+  "manifest_version": 3,
+  "name": "starry night",
+  "theme": {
+     "colors": {
+        "bookmark_text": [ 220, 230, 255 ], 
+        "button_background": [ 0, 0, 0, 0 ],
+        "frame": [ 15, 20, 40 ],
+        "ntp_background": [ 10, 15, 35 ], 
+        "ntp_link": [ 130, 180, 255 ], 
+        "ntp_text": [ 220, 230, 255 ],
+        "tab_background_text": [ 146, 154, 175 ],
+        "tab_text": [ 255, 255, 255 ],  
+        "toolbar": [ 20, 25, 50 ] 
+     },
+     "images": {
+        "theme_frame": "images/theme_frame_starry.png",
+        "theme_ntp_background": "images/theme_ntp_background_starry.png",
+        "theme_tab_background": "images/theme_tab_background_starry.png",
+        "theme_toolbar": "images/theme_toolbar_starry.png"
+     },
+     "properties": {
+        "ntp_background_alignment": "top",
+        "ntp_background_repeat": "no-repeat"
+     },
+     "tints": {
+        "buttons": [ 0.6, 0.6, 1.0 ]
+     }
+  },
+  "version": "2.0"
+}
